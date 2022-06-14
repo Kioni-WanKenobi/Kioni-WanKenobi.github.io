@@ -1,0 +1,38 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+write me a CSS theme for someone that likes cybersecurity, hacking, and star wars. The theme should be dark mode
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+:root {
+  --font-family: 'Roboto', sans-serif;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray: #636363;
+  --color-red: #e74c3c;
+  --color-blue: #3498db;
+
+  --bg-color: var(--color-black);
+  --text-color: var(--color-white);
+  --link-color: var(--color-blue);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+}
+
+a {
+  color: var(--link-color);
+}
+
+.header {
+  background-color: var(--color-gray);
+}
+
+.header__logo {
+  color: var(--
