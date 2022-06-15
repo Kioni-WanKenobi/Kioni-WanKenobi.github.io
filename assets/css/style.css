@@ -42,7 +42,7 @@ input:checked + * {
 .home{
   position: static;
   background: var(--alt-bg-color);
-  margin: auto;
+  margin: 5% 10%;
   width: 80vw;
   height: 80vh;
   padding: 24px;
@@ -50,7 +50,7 @@ input:checked + * {
 
 article {
   position: static;
-  margin: auto;
+  margin: 5%;
   width: 80vw;
   height: 80vh;
   padding: 24px;
