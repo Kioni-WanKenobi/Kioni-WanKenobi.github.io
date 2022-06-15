@@ -26,11 +26,11 @@ input:checked + * {
 --border-color: #218095;
 --gradient-style: linear-gradient(
   to left,
- #9394967e 0%, rgba(255, 255, 255, 0.50) 40%, rgb(255, 255, 255, 0.50) 60%,  #93949683 100%
+ #5bfd71 0%, #88f796, #88f796,  #5bfd71 100%
 );
 
 
---gradient-size: 8px;
+--gradient-size: 6px;
 --gradient-shadow: #009E27;
 }
 
@@ -50,13 +50,13 @@ input[type="checkbox"] {
   outline: 0;
   position: absolute;
   z-index: 2;
-  top: 10px;
-  left: 10px;
+  top: 20px;
+  right: 100px;
   width: 400px;
   height: 15px;
-  border-radius: 5/70%;
+  border-radius: 10/60%;
   background-image: var(--gradient-style);
-  box-shadow: 0 0 30px var(--gradient-size) var(--gradient-shadow),0 0 50px var(--gradient-size) var(--gradient-shadow);
+  box-shadow: 0 0 15px var(--gradient-size) var(--gradient-shadow),0 0 25px var(--gradient-size) var(--gradient-shadow);
   cursor: pointer;
 }
 article {
