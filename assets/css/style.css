@@ -51,8 +51,8 @@ input:checked + * {
 article {
   position: static;
   margin: 5%;
-  width: 80vw;
-  height: 80vh;
+  width: 80%;
+  height: 80%;
   padding: 24px;
 }
 
@@ -63,6 +63,7 @@ h1 {
   width: 75%;
   padding-bottom: 4px;
   border-bottom: 3px solid var(--border-color);
+  background: var(--alt-bg-color);
   color: var(--em-font-color);
 }
 p {
