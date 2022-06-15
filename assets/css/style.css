@@ -26,8 +26,10 @@ input:checked + * {
 --border-color: #218095;
 --gradient-style: linear-gradient(
   to left,
-  #0b0b0b 0%, #414141 40%, #414141 60%, #0b0b0b 100%
+ #939496 0%, rgb(255, 255, 255) 40%, rgb(255, 255, 255) 60%,  #939496 100%
 );
+
+
 --gradient-size: 8px;
 --gradient-shadow: #009E27;
 }
@@ -50,9 +52,9 @@ input[type="checkbox"] {
   z-index: 2;
   top: 10px;
   right: 10px;
-  width: 440px;
-  height: 20px;
-  border-radius: 50%;
+  width: 400px;
+  height: 15px;
+  border-radius: 5/70%;
   background-image: var(--gradient-style);
   box-shadow: 0 0 30px var(--gradient-size) var(--gradient-shadow),0 0 50px var(--gradient-size) var(--gradient-shadow);
   cursor: pointer;
