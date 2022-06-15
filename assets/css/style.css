@@ -6,47 +6,43 @@
   --ff-heading: 'Rubik Glitch', cursive;
   --ff-body: 'Roboto', sans-serif;
   --color-white: #fff;
-  --bg-color: #ffffff75;
-  --font-color: #121212;
-  --em-font-color: #121212;
-  --border-color: #218095;
-  --gradient-style: radial-gradient(
-    circle,
-    #f6ff1c,
-    #ffdc00,
-    #ffb800,
-    #ff951a
-  );
-  --gradient-size: 8px;
-  --gradient-shadow: #ffb800;
-}
-
-input:checked,
-input:checked + * {
   --bg-color: #121212;
   --font-color: #ffffff75;
   --em-font-color: #ffffff87;
   --border-color: #c9e3e9;
-  --gradient-style: radial-gradient(
-    circle,
-    #ccd325,
-    #d3d84b,
-    #dadd68,
-    #e0e183,
-    #e6e69c
+  --gradient-style: linear-gradient(
+    to left,
+    #0b0b0b 0%, #414141 40%, #414141 60%, #0b0b0b 100%
   );
   --gradient-size: 2px;
-  --gradient-shadow: #fff;
+  --gradient-shadow:#AB1822;
 }
 
-/* apply css variable */
+input:checked,
+input:checked + * {
+--bg-color: #ffffff75;
+--font-color: #121212;
+--em-font-color: #121212;
+--border-color: #218095;
+--gradient-style: linear-gradient(
+  to left,
+  #0b0b0b 0%, #414141 40%, #414141 60%, #0b0b0b 100%
+);
+--gradient-size: 8px;
+--gradient-shadow: #009E27;
+}
+
+
+
 body {
   margin: 0;
 }
+
 * {
   background: var(--bg-color);
   color: var(--font-color);
 }
+
 input[type="checkbox"] {
   -webkit-appearance: none;
   outline: 0;
@@ -54,11 +50,11 @@ input[type="checkbox"] {
   z-index: 2;
   top: 10px;
   right: 10px;
-  width: 200px;
+  width: 440px;
   height: 20px;
   border-radius: 50%;
   background-image: var(--gradient-style);
-  box-shadow: 0 0 14px var(--gradient-size) var(--gradient-shadow);
+  box-shadow: 0 0 30px var(--gradient-size) var(--gradient-shadow),0 0 50px var(--gradient-size) var(--gradient-shadow);
   cursor: pointer;
 }
 article {
@@ -80,3 +76,4 @@ p {
   margin: 10px 0;
   line-height: 1.4;
 }
+
