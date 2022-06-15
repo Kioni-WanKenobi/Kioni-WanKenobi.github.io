@@ -1,35 +1,81 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 
 :root {
-  --font-family: 'Rubik Glitch', cursive;
+  --ff-heading: 'Rubik Glitch', cursive;
+  --ff-body: 'Roboto', sans-serif;
   --color-white: #fff;
-  --color-black: rgb(0, 0, 0);
-  --color-gray: #636363;
-  --color-red: #e25747;
-  --color-blue: #3498db;
-
-  --bg-color: var(--color-black);
-  --text-color: var(--color-white);
-  --link-color: var(--color-blue);
+  --bg-color: #ffffff75;
+  --font-color: #121212;
+  --em-font-color: #121212;
+  --border-color: #218095;
+  --gradient-style: radial-gradient(
+    circle,
+    #f6ff1c,
+    #ffdc00,
+    #ffb800,
+    #ff951a
+  );
+  --gradient-size: 8px;
+  --gradient-shadow: #ffb800;
 }
 
+input:checked,
+input:checked + * {
+  --bg-color: #121212;
+  --font-color: #ffffff75;
+  --em-font-color: #ffffff87;
+  --border-color: #c9e3e9;
+  --gradient-style: radial-gradient(
+    circle,
+    #ccd325,
+    #d3d84b,
+    #dadd68,
+    #e0e183,
+    #e6e69c
+  );
+  --gradient-size: 2px;
+  --gradient-shadow: #fff;
+}
+
+/* apply css variable */
 body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  font-family: var(--font-family);
+  margin: 0;
 }
-
-a {
-  color: var(--link-color);
+* {
+  background: var(--bg-color);
+  color: var(--font-color);
 }
-
-.header {
-  background-color: var(--color-gray);
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  outline: 0;
+  position: absolute;
+  z-index: 2;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-image: var(--gradient-style);
+  box-shadow: 0 0 14px var(--gradient-size) var(--gradient-shadow);
+  cursor: pointer;
 }
-
-.header__logo {
-  color: var(--color-primary);
-  font-size: 1.5rem;
-  padding: 0.5rem;
-  text-decoration: none;
+article {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  padding: 24px;
+}
+h1 {
+  font-size: 24px;
+  margin-top: 20px;
+  padding-bottom: 4px;
+  border-bottom: 3px solid var(--border-color);
+  color: var(--em-font-color);
+}
+p {
+  font-size: 18px;
+  margin: 10px 0;
+  line-height: 1.4;
 }
