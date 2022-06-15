@@ -1,4 +1,4 @@
-<link href="assets/css/style.scss" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.scss">
 ## Kioni-Wan Kenobi
 
 You can use the [editor on GitHub](https://github.com/Kioni-WanKenobi/Kioni-WanKenobi.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
