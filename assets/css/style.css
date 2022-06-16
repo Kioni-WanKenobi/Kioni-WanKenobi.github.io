@@ -39,22 +39,21 @@ input:checked + * {
   color: var(--font-color);
 }
 
-.home{
+article {
   position: static;
-  background: var(--alt-bg-color);
-  margin: 5% 10%;
+  background: var(--bg-color);
+  margin: 5%;
   width: 80vw;
   height: 80vh;
   padding: 24px;
 }
 
-article {
-  position: static;
-  margin: 5%;
-  width: 80%;
-  height: 80%;
+.home{
+  background: var(--alt-bg-color);
+  margin: 5% 10%;
   padding: 24px;
 }
+
 
 h1 {
   font-family:'Rubik Glitch', cursive;;
