@@ -2,20 +2,34 @@
 <html lang="en">
 
 <head>
+  <meta charset="utf-8">
+  <title>Method: 2 - Using Separate Stylesheets</title>
   <link href="assets/css/light-theme.css" rel="stylesheet" id="theme-link">
 </head>
 
-<body> 
-
-  <script src="assets/js/saber.js"></script>
-
+<body>
   <button class="btn-toggle">Toggle Dark-Mode</button>
   <h1>Hey there! This is just a title</h2>
-  <p>I am just a boring text, existing here solely for the purpose of this demo</p>
-  <p>And I am just another one like the one above me, because two is better than having only one</p>
-  <a href="#">I am a link, don't click me!</a>
+    <p>I am just a boring text, existing here solely for the purpose of this demo</p>
+    <p>And I am just another one like the one above me, because two is better than having only one</p>
+    <a href="#">I am a link, don't click me!</a>
+
+    <script>
+      const btn = document.querySelector(".btn-toggle");
+      const theme = document.querySelector("#theme-link");
+      btn.addEventListener("click", function() {
+        // Swap out the URL for the different stylesheets
+        if (theme.getAttribute("href") == "light-theme.css") {
+          theme.href = "dark-theme.css";
+        } else {
+          theme.href = "light-theme.css";
+        }
+      });
+    </script>
 
 
+<script src="assets/js/saber.js"></script>
 
 </body>
+
 </html>
