@@ -29,7 +29,7 @@
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 6px 8px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -47,11 +47,12 @@
   color: #f2f2f2;
   text-align: center;
   align-items: center;
+  justify-self: center;
   text-decoration: none;
   font-size: 22px;
   background-color: #1A1831;
   width: 58px;
-  height: 58 px; 
+  height: 58px; 
 
 }
 
@@ -128,6 +129,7 @@ body {
 		margin: 1%;
 	  height: 15%;
 		text-align: center;
+    flex-direction: column;
 		padding: 10px;
     display: flex;
     align-items: baseline;
