@@ -37,6 +37,7 @@ a {
   z-index : '-1';
   transition : 'width .6s cubic-bezier(0.34, .75 , 0.20, 1)';
   background : 'ivory';
+  box-shadow: none;
 
 }
 

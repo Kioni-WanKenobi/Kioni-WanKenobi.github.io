@@ -6,7 +6,10 @@ const theme = document.querySelector("#theme-link");
 //document.body.appendChild(hilt);
 
 //var blade = document.createElement('div');
-var blade = document.getElementsByClassName('blade');
+//var blade = document.getElementsByClassName('blade');
+var bladeElement = document.querySelector('.blade');
+var blade = window.getComputedStyles(bladeElement);
+
 var shadow = '8px 0 8px #B30000,5px 0 5px 8px ivory,5px 0 12px 16px #B30000, 5px 0 12px 10px #660000';
 var altShadow = '8px 0 8px #B30000,5px 0 5px 7px ivory, 5px 0 14px 16px #B30000, 5px 0 10px 11px #660000';
 var powermode = "off";
@@ -28,11 +31,14 @@ btn.addEventListener("click", function() {
 
 function power() {
   flashint = setInterval(pulse, 500);
-  blade.style.width = '700px';
+  blade.style.setProperty('width', '700');
+
+  //blade.style.width = '700px';
 }
 function power_off() {
   flashint = null;
-  blade.style.width = '0px';
+  //blade.style.width = '0px';
+  blade.style.setProperty('width','700');
 }
 
 //hilt.onclick = function() {
@@ -49,9 +55,11 @@ $(".hilt").click(function(){
 
 var pulse = function() {
  if (powermode == "on") {
-    blade.style.boxShadow =  shadow;
+    //blade.style.boxShadow =  shadow;
+    blade.style.setProperty('box-shadow',shadow);
     setTimeout(function() {
-      blade.style.boxShadow = altShadow;
+      //blade.style.boxShadow = altShadow;
+      blade.style.setProperty('box-shadow',altShadow);
     }, 250);
 }
 else   {
