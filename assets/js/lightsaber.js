@@ -1,11 +1,12 @@
 const btn = document.querySelector(".btn-toggle");
 const theme = document.querySelector("#theme-link");
 
-var hilt = document.createElement('img');
-hilt.src = 'https://raw.githubusercontent.com/KioniWanKenobi/KioniWanKenobi.github.io/main/assets/img/vailderhilt_horizontal.png';
+//var hilt = document.createElement('img');
+//hilt.src = 'https://raw.githubusercontent.com/KioniWanKenobi/KioniWanKenobi.github.io/main/assets/img/vailderhilt_horizontal.png';
 document.body.appendChild(hilt);
 
-var blade = document.createElement('div');
+//var blade = document.createElement('div');
+var blade = document.getElementsByClassName('blade');
 var shadow = '8px 0 8px #B30000,5px 0 5px 8px ivory,5px 0 12px 16px #B30000, 5px 0 12px 10px #660000';
 var altShadow = '8px 0 8px #B30000,5px 0 5px 7px ivory, 5px 0 14px 16px #B30000, 5px 0 10px 11px #660000';
 var powermode = "off";
@@ -34,7 +35,9 @@ function power_off() {
   blade.style.width = '0px';
 }
 
-hilt.onclick = function() {
+//hilt.onclick = function() {
+
+$(".hilt").click(function(){
   if (powermode == "off") {
     power();
     powermode = "on";
@@ -42,7 +45,8 @@ hilt.onclick = function() {
     power_off();
     powermode = "off";
   }
-}
+});
+
 var pulse = function() {
  if (powermode == "on") {
     blade.style.boxShadow =  shadow;
