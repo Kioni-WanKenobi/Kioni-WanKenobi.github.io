@@ -31,15 +31,10 @@ btn.addEventListener("click", function() {
 
 function power() {
   flashint = setInterval(pulse, 500);
-  //blade.style.width ='700px';
-  
-
-  //blade.style.width = '700px';
+  blade.style.width = '700px';
 }
 function power_off() {
   flashint = null;
-  //blade.style.width = '0px';
-  //blade.style.setProperty('width','700px');
   blade.style.width = '0px';
 }
 
