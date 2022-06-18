@@ -25,7 +25,7 @@ a {
   color: #0033cc;
 }
 
-.blade {
+#blade {
   position : 'absolute';
   top : '50%';
   left : '50%';
@@ -41,10 +41,11 @@ a {
 
 }
 
-.hilt {
+#hilt {
   position : 'absolute';
   top : '50%';
   left : '50%';
   margin-top : '300px';
   margin-left : '-150px';
+  cursor: pointer;
 }
