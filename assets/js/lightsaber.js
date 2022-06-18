@@ -7,7 +7,7 @@ const theme = document.querySelector("#theme-link");
 
 //var blade = document.createElement('div');
 //var blade = document.getElementsByClassName('blade');
-var bladeElement = document.querySelector('.blade');
+var bladeElement = document.querySelector(".blade");
 var blade = window.getComputedStyle(bladeElement);
 
 
@@ -33,14 +33,14 @@ btn.addEventListener("click", function() {
 
 function power() {
   flashint = setInterval(pulse, 500);
-  blade.style.setProperty('width', '700');
+  blade.style.setProperty('width', '700px');
 
   //blade.style.width = '700px';
 }
 function power_off() {
   flashint = null;
   //blade.style.width = '0px';
-  blade.style.setProperty('width','700');
+  blade.style.setProperty('width','700px');
 }
 
 //hilt.onclick = function() {
@@ -58,13 +58,14 @@ $(".hilt").click(function(){
 var pulse = function() {
  if (powermode == "on") {
     //blade.style.boxShadow =  shadow;
-    blade.style.setProperty('box-shadow',shadow);
+    blade.style.setProperty('box-shadow',"--box-shadow");
     setTimeout(function() {
       //blade.style.boxShadow = altShadow;
-      blade.style.setProperty('box-shadow',altShadow);
+      blade.style.setProperty('box-shadow',"--alt-box-shdaow");
     }, 250);
 }
 else   {
-   blade.style.boxShadow = 'none';
+   //blade.style.boxShadow = 'none';
+   blade.style.setProperty('box-shadow',null);
   }
 };
