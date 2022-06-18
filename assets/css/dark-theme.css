@@ -1,9 +1,50 @@
 /* dark-theme.css */
 
+
+:root {
+  --ff-heading: 'Rubik Glitch', cursive;
+  --ff-body: 'Roboto', sans-serif;
+  --color-white: #fff;
+  --bg-color: #222222;
+  --alt-bg-color: #37474F;
+  --font-color: #ffffff75;
+  --em-font-color: #ffffff87;
+  --border-color: #c9e3e9;
+  --gradient-size: 2px;
+  --gradient-shadow:#AB1822;
+  --box-shadow: boxShadow:'8px 0 8px #B30000,5px 0 5px 8px ivory,5px 0 12px 16px #B30000, 5px 0 12px 10px #660000';
+  --alt-box-shadow: boxShadow: '8px 0 8px #B30000,5px 0 5px 7px ivory, 5px 0 14px 16px #B30000, 5px 0 10px 11px #660000';
+  --null-box-shadow: boxShadow: null; 
+};
+
 body {
-  color: #eee;
-  background: #121212;
+  color: var(--font-color);
+  background: var(--bg-color);
 }
 body a {
   color: #809fff;
+}
+
+
+.blade {
+  position : 'absolute';
+  top : '50%';
+  left : '50%';
+  margin-top : '338px';
+  margin-left : '90px';
+  width : '0px';
+  height : '1px';
+  border-radius : '100px';
+  z-index : '-1';
+  transition : 'width .6s cubic-bezier(0.34, .75 , 0.20, 1)';
+  background : 'ivory';
+
+}
+
+.hilt {
+  position : 'absolute';
+  top : '50%';
+  left : '50%';
+  margin-top : '300px';
+  margin-left : '-150px';
 }

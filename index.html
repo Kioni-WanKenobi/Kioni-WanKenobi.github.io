@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <title>Kioni-Wan Kenobi</title>
   <link href="assets/css/light-theme.css" rel="stylesheet" id="theme-link">
 </head>
@@ -10,22 +11,10 @@
 <body>
   <button class="btn-toggle">Toggle Dark-Mode</button>
   <h1>Kioni-Wan Kenobi</h2>
-    
-    <script>
-      const btn = document.querySelector(".btn-toggle");
-      const theme = document.querySelector("#theme-link");
-      btn.addEventListener("click", function() {
-        // Swap out the URL for the different stylesheets
-        if (theme.getAttribute("href") == "assets/css/light-theme.css") {
-          theme.href = "assets/css/dark-theme.css";
-        } else {
-          theme.href = "assets/css/light-theme.css";
-        }
-      });
-    </script>
 
 
-<script src="assets/js/saber.js"></script>
+
+<script src="assets/js/lightsaber.js"></script>
 
 </body>
 
