@@ -11,13 +11,13 @@
   --border-color: #218095;
   --gradient-size: 2px;
   --gradient-shadow:#AB1822;
-  --box-shadow: boxShadow: 8px 0 8px #B30000,5px 0 5px 8px ivory,5px 0 12px 16px #B30000, 5px 0 12px 10px #660000 ;
-  --alt-box-shadow: boxShadow:  8px 0 8px #B30000,5px 0 5px 7px ivory, 5px 0 14px 16px #B30000, 5px 0 10px 11px #660000 ;
+  --box-shadow : boxShadow: 8px 0 8px #4C9A2A,5px 0 5px 8px ivory,5px 0 12px 16px #ACDF87, 5px 0 12px 10px #4C9A2A;
+  --alt-box-Shadow : boxShadow: 8px 0 8px #4C9A2A,5px 0 5px 7px ivory, 5px 0 14px 16px #ACDF87, 5px 0 10px 11px #4C9A2A;
   --null-box-shadow: boxShadow: null; 
 };
 
-/* Add a black background color to the top navigation */
-.topnav {
+ /* Add a black background color to the top navigation */
+ .topnav {
   background-color: #333;
   overflow: hidden;
 }
@@ -116,13 +116,12 @@ body {
 
 .outer {
 	padding: 20px; 
-  align-items: baseline;
+  align-items:  flex-start;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
 	color: hsla(0, 100%, 100%, 0.87);
-  background-color: white;
 }
 	
 	.outer .div{
@@ -132,7 +131,8 @@ body {
     flex-direction: column;
 		padding: 10px;
     display: flex;
-    align-items: baseline;
+    align-items:  flex-start;
+    align-self: center;
 	}
 
 

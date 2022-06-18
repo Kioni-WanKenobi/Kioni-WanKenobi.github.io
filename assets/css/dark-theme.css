@@ -117,7 +117,7 @@ body {
 
 .outer {
 	padding: 20px; 
-  align-items: baseline;
+  align-items:  flex-start;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -132,7 +132,8 @@ body {
     flex-direction: column;
 		padding: 10px;
     display: flex;
-    align-items: baseline;
+    align-items:  flex-start;
+    align-self: flex-start;
 	}
 
 
