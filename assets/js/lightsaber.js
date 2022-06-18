@@ -8,7 +8,9 @@ const theme = document.querySelector("#theme-link");
 //var blade = document.createElement('div');
 //var blade = document.getElementsByClassName('blade');
 var bladeElement = document.querySelector('.blade');
-var blade = window.getComputedStyles(bladeElement);
+var blade = window.getComputedStyle(bladeElement);
+
+
 
 var shadow = '8px 0 8px #B30000,5px 0 5px 8px ivory,5px 0 12px 16px #B30000, 5px 0 12px 10px #660000';
 var altShadow = '8px 0 8px #B30000,5px 0 5px 7px ivory, 5px 0 14px 16px #B30000, 5px 0 10px 11px #660000';
