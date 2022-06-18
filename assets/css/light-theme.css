@@ -37,7 +37,6 @@
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   background-color: #1A1831;
@@ -69,6 +68,7 @@
   left :  50% ;
   margin-top :  338px ;
   margin-left :  -60px ;
+  float: left; 
   width :  0px ;
   height :  1px ;
   border-radius :  100px ;
@@ -76,16 +76,19 @@
   transition :  width .6s cubic-bezier(0.34, .75 , 0.20, 1) ;
   background :  ivory ;
   box-shadow: none;
+  align-items: center;
 
 }
 
 #hilt {
   position :  absolute ;
+  float: left;
   top :  50% ;
   left :  50% ;
   margin-top :  300px ;
   margin-left :  -300px ;
   cursor: pointer;
+  align-items: center;
 }
 
 body {
@@ -98,21 +101,21 @@ body {
 
 .outer {
 	padding: 20px; 
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
   background-color: white;
   color: #666666;
-	
-	div {
+}
+	.outer .div {
 		margin: 1%;
 	  height: 15%;
 		text-align: center;
 		padding: 10px;
 	}
-}
+
 
 .dp01 {
 	background-color: hsla(0, 100%, 100%, 0.05);

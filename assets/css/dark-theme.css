@@ -34,12 +34,18 @@
   font-size: 17px;
 }
 
+.topnav bar {
+    background-color:#333;
+    display: inline-block;
+    width: 833px;
+}
+
+
 .topnav button {
   float: right;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
   font-size: 22px;
   background-color: #1A1831;
@@ -81,7 +87,7 @@
   transition :  width .6s cubic-bezier(0.34, .75 , 0.20, 1) ;
   background :  ivory ;
   box-shadow: none;
-
+  align-items: center;
 }
 
 #hilt {
@@ -92,7 +98,7 @@
   margin-top :  300px ;
   margin-left :  -300px ;
   cursor: pointer;
-
+  align-items: center;
 }
 
 
@@ -107,21 +113,21 @@ body {
 
 .outer {
 	padding: 20px; 
-  align-items: center;
+  align-items: flex-start;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
 	color: hsla(0, 100%, 100%, 0.87);
-
+}
 	
-	div {
+	.outer .div{
 		margin: 1%;
 	  height: 15%;
 		text-align: center;
 		padding: 10px;
 	}
-}
+
 
 .dp01 {
 	background-color: hsla(0, 100%, 100%, 0.05);
