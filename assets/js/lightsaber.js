@@ -47,7 +47,7 @@ function power_off() {
 
 //$(".hilt").click(function(){
 
-blade.addEventListener("click", function(){
+hilt.addEventListener("click", function(){
   if (powermode == "off") {
     power();
     powermode = "on";
