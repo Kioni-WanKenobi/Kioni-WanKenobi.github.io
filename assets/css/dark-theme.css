@@ -41,8 +41,10 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 22px;
   background-color: #1A1831;
+  width: 58px;
+  height: 58 px; 
 
 }
 
@@ -71,7 +73,7 @@
   left :  50% ;
   float : left; 
   margin-top :  338px ;
-  margin-left :  90px ;
+  margin-left :  -60px ;
   width :  0px ;
   height :  1px ;
   border-radius :  100px ;
@@ -88,7 +90,7 @@
   top :  50% ;
   left :  50% ;
   margin-top :  300px ;
-  margin-left :  -150px ;
+  margin-left :  -300px ;
   cursor: pointer;
 
 }
