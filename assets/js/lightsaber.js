@@ -8,11 +8,7 @@ const theme = document.querySelector("#theme-link");
 //var blade = document.createElement('div');
 //var blade = document.getElementsByClassName('blade');
 
-
-var bladeElement = document.querySelector(".blade");
-var blade = window.getComputedStyle(bladeElement);
-
-
+var blade = document.getElementById("blade");
 
 var shadow = '8px 0 8px #B30000,5px 0 5px 8px ivory,5px 0 12px 16px #B30000, 5px 0 12px 10px #660000';
 var altShadow = '8px 0 8px #B30000,5px 0 5px 7px ivory, 5px 0 14px 16px #B30000, 5px 0 10px 11px #660000';
@@ -35,14 +31,16 @@ btn.addEventListener("click", function() {
 
 function power() {
   flashint = setInterval(pulse, 500);
-  blade.style.setProperty('width', '700px');
+  //blade.style.width ='700px';
+  
 
   //blade.style.width = '700px';
 }
 function power_off() {
   flashint = null;
   //blade.style.width = '0px';
-  blade.style.setProperty('width','700px');
+  //blade.style.setProperty('width','700px');
+  blade.style.width = '0px';
 }
 
 //hilt.onclick = function() {
@@ -60,14 +58,17 @@ $(".hilt").click(function(){
 var pulse = function() {
  if (powermode == "on") {
     //blade.style.boxShadow =  shadow;
-    blade.style.setProperty('box-shadow',"--box-shadow");
+    //blade.style.setProperty('box-shadow',"--box-shadow");
+    blade.style.boxShadow = shadow;
     setTimeout(function() {
       //blade.style.boxShadow = altShadow;
-      blade.style.setProperty('box-shadow',"--alt-box-shdaow");
+      //blade.style.setProperty('box-shadow',"--alt-box-shdaow");
+      blade.style.boxShadow = altShadow;
     }, 250);
 }
 else   {
    //blade.style.boxShadow = 'none';
-   blade.style.setProperty('box-shadow',null);
+   //blade.style.setProperty('box-shadow',null);
+   blade.style.boxShadow = "none";
   }
 };

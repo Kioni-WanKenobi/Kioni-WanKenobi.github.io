@@ -26,7 +26,7 @@ body a {
 }
 
 
-.blade {
+#blade {
   position : 'absolute';
   top : '50%';
   left : '50%';
@@ -42,7 +42,7 @@ body a {
 
 }
 
-.hilt {
+#hilt {
   position : 'absolute';
   top : '50%';
   left : '50%';
