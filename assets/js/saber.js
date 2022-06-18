@@ -1,4 +1,4 @@
-/* create a 150 wide 20 high cylinder named hilt */
+
 var hilt = document.createElement('div');
 hilt.style.width = '150px';
 hilt.style.height = '25px';
@@ -13,7 +13,7 @@ hilt.style.borderTopRightRadius = '5px';
 hilt.style.borderBottomRightRadius = '5px';
 document.body.appendChild(hilt);
 
-/* create a 90 degree right triangle */
+
 var triangle = document.createElement('div');
 triangle.style.width = '20px';
 triangle.style.height = '0';
@@ -26,7 +26,6 @@ triangle.style.marginLeft = '-120px';
 triangle.style.marginTop = '0px';
 document.body.appendChild(triangle);
 
-/* create a cylinder called blade that is 450 wide and 20 high */
 var blade = document.createElement('div');
 blade.style.width = '500px';
 blade.style.height = '15px';
@@ -40,7 +39,7 @@ blade.style.marginTop = '2.5px';
 blade.style.zIndex = '-1';
 document.body.appendChild(blade);
 
-/* put a "🔆" object inside of hilt that once pressed toggles the blade color between red and green */
+
 var button = document.createElement('button');
 button.innerHTML = '🔆';
 button.style.position = 'absolute';

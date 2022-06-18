@@ -47,4 +47,6 @@ body a {
   left : '50%';
   margin-top : '300px';
   margin-left : '-150px';
+  cursor: pointer;
+
 }
