@@ -7,6 +7,8 @@ const theme = document.querySelector("#theme-link");
 
 //var blade = document.createElement('div');
 //var blade = document.getElementsByClassName('blade');
+
+
 var bladeElement = document.querySelector(".blade");
 var blade = window.getComputedStyle(bladeElement);
 
