@@ -11,7 +11,7 @@ var shadow = '8px 0 8px #B30000,5px 0 5px 8px ivory,5px 0 12px 16px #B30000, 5px
 var altShadow = '8px 0 8px #B30000,5px 0 5px 7px ivory, 5px 0 14px 16px #B30000, 5px 0 10px 11px #660000';
 var powermode = "off";
 var flashint;
-document.body.appendChild(blade);
+//document.body.appendChild(blade);
 
 btn.addEventListener("click", function() {
   if (theme.getAttribute("href") == "assets/css/light-theme.css") {
