@@ -36,6 +36,42 @@ input:checked + * {
 
 }
 
+input[type=checkbox].hidden{
+  opacity: 0;
+}
+
+.control::after {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  align-items: center;
+  justify-self: center;
+  text-decoration: none;
+  font-size: 22px;
+  background-color: #1A1831;
+  width: 58px;
+  height: 58px; 
+  cursor: pointer;
+  content: "🌑";
+}
+#toggle:checked ~ .control::after {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  align-items: center;
+  justify-self: center;
+  text-decoration: none;
+  font-size: 22px;
+  background-color: #1A1831;
+  width: 58px;
+  height: 58px; 
+  cursor: pointer;
+  content: "☀️";
+}
+
+
 * {
   background: var(--bg-color);
   color: var(--font-color);
@@ -98,22 +134,6 @@ input:checked + * {
   display: none;
 } 
 
-input[type="checkbox"] {
-  float: right;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  align-items: center;
-  justify-self: center;
-  text-decoration: none;
-  font-size: 22px;
-  background-color: #1A1831;
-  width: 58px;
-  height: 58px; 
-  cursor: pointer;
-}
-
-
 
 #blade {
   position :  absolute ;
@@ -147,8 +167,8 @@ input[type="checkbox"] {
 
 
 body {
-	background-color: #121212;
-	font-family: roboto;
+	background-color: var(background-color);
+	font-family: var(--ff-body);
 	font-size: 14px;
 	line-height: 30px;
 	margin: 0;
