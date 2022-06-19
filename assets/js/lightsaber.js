@@ -1,5 +1,6 @@
-const btn = document.querySelector(".btn-toggle");
-const theme = document.querySelector("#theme-link");
+//const btn = document.querySelector(".btn-toggle");
+var checkbox = document.getElementById('mode');
+//const theme = document.querySelector("#theme-link");
 
 //var hilt = document.createElement('img');
 //hilt.src = 'https://raw.githubusercontent.com/KioniWanKenobi/KioniWanKenobi.github.io/main/assets/img/vailderhilt_horizontal.png';
@@ -16,14 +17,17 @@ var powermode = "off";
 var flashint;
 //document.body.appendChild(blade);
 
-btn.addEventListener("click", function() {
-  if (theme.getAttribute("href") == "assets/css/light-theme.css") {
-    theme.href = "assets/css/dark-theme.css";
+var checkbox = document.getElementById('mode');
+
+//btn.addEventListener("click", function() {
+checkbox.addEventListener('change', function() {
+  if (this.checked) {
+  //  theme.href = "assets/css/dark-theme.css";
       shadow = '8px 0 8px #B30000,5px 0 5px 8px ivory,5px 0 12px 16px #B30000, 5px 0 12px 10px #660000';
       altShadow = '8px 0 8px #B30000,5px 0 5px 7px ivory, 5px 0 14px 16px #B30000, 5px 0 10px 11px #660000';
 
   } else {
-    theme.href = "assets/css/light-theme.css";
+   // theme.href = "assets/css/light-theme.css";
       shadow = '8px 0 8px #4C9A2A,5px 0 5px 8px ivory,5px 0 12px 16px #ACDF87, 5px 0 12px 10px #4C9A2A';
       altShadow = '8px 0 8px #4C9A2A,5px 0 5px 7px ivory, 5px 0 14px 16px #ACDF87, 5px 0 10px 11px #4C9A2A';
   }
