@@ -36,26 +36,20 @@ input:checked + * {
 
 }
 
-input[type=checkbox].hidden{
+.hidden{
   opacity: 0;
 }
 
 .control::after {
-  float: right;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  align-items: center;
-  justify-self: center;
-  text-decoration: none;
   font-size: 22px;
-  background-color: #1A1831;
-  width: 58px;
-  height: 58px; 
-  cursor: pointer;
   content: "🌑";
 }
 #toggle:checked ~ .control::after {
+  font-size: 22px;
+  content: "☀️";
+}
+
+label {
   float: right;
   display: block;
   color: #f2f2f2;
@@ -63,12 +57,10 @@ input[type=checkbox].hidden{
   align-items: center;
   justify-self: center;
   text-decoration: none;
-  font-size: 22px;
   background-color: #1A1831;
   width: 58px;
   height: 58px; 
   cursor: pointer;
-  content: "☀️";
 }
 
 
