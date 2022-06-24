@@ -62,8 +62,7 @@
 
 }
 
-input:checked,
-input:checked + * {
+input[type=checkbox]:checked~:root{
 --bg-color: #fff;
 --alt-bg-color: #f5f5f5;
 --font-color: #666666;
