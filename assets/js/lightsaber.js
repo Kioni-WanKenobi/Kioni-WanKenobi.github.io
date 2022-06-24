@@ -16,9 +16,8 @@ var flashint;
 
 
 //btn.addEventListener("click", function() {
-  document.addEventListener("DOMContentLoaded", function(){
+
 var checkbox = document.getElementById("mode");
-});
 checkbox.addEventListener('change', function() {
   if (checkbox.checked) {
   //  theme.href = "assets/css/dark-theme.css";
