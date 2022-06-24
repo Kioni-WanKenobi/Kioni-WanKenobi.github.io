@@ -21,7 +21,7 @@ var checkbox = document.getElementById('mode');
 
 //btn.addEventListener("click", function() {
 checkbox.addEventListener('change', function() {
-  if (this.checked) {
+  if (checkbox.checked) {
   //  theme.href = "assets/css/dark-theme.css";
       shadow = '8px 0 8px #B30000,5px 0 5px 8px ivory,5px 0 12px 16px #B30000, 5px 0 12px 10px #660000';
       altShadow = '8px 0 8px #B30000,5px 0 5px 7px ivory, 5px 0 14px 16px #B30000, 5px 0 10px 11px #660000';

@@ -208,11 +208,11 @@ input:checked + * {
 }
 
 .control::after {
-  font-size: 22px;
+  font-size: 28px;
   content: "🌑";
 }
 #toggle:checked ~ .control::after {
-  font-size: 22px;
+  font-size: 28px;
   content: "🔆";
 }
 
