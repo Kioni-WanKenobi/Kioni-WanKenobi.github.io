@@ -1,5 +1,4 @@
 //const btn = document.querySelector(".btn-toggle");
-var checkbox = document.getElementById("mode");
 //const theme = document.querySelector("#theme-link");
 
 //var hilt = document.createElement('img');
@@ -9,7 +8,6 @@ var checkbox = document.getElementById("mode");
 //var blade = document.getElementsByClassName('blade');
 
 var blade = document.getElementById("blade");
-
 var shadow = '8px 0 8px #B30000,5px 0 5px 8px ivory,5px 0 12px 16px #B30000, 5px 0 12px 10px #660000';
 var altShadow = '8px 0 8px #B30000,5px 0 5px 7px ivory, 5px 0 14px 16px #B30000, 5px 0 10px 11px #660000';
 var powermode = "off";
@@ -18,6 +16,9 @@ var flashint;
 
 
 //btn.addEventListener("click", function() {
+  document.addEventListener("DOMContentLoaded", function(){
+var checkbox = document.getElementById("mode");
+});
 checkbox.addEventListener('change', function() {
   if (checkbox.checked) {
   //  theme.href = "assets/css/dark-theme.css";
