@@ -17,7 +17,6 @@ var powermode = "off";
 var flashint;
 //document.body.appendChild(blade);
 
-var checkbox = document.getElementById('mode');
 
 //btn.addEventListener("click", function() {
 checkbox.addEventListener('change', function() {
