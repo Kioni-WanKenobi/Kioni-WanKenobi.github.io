@@ -102,7 +102,6 @@ input:checked + * {
   justify-content: space-between;
 }
 
-
 /* Style the links inside the navigation bar */
 .nav a {
   float: right;
@@ -137,21 +136,6 @@ input:checked + * {
   text-decoration: none;
 }
 
-.nav button {
-  float: right;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  align-items: center;
-  justify-self: center;
-  text-decoration: none;
-  font-size: 22px;
-  background-color: #1A1831;
-  width: 58px;
-  height: 58px; 
-  cursor: pointer;
-
-}
 
 /* Hide the link that should open and close the topnav on small screens */
 .nav .icon {
