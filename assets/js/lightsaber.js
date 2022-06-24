@@ -1,11 +1,10 @@
 //const btn = document.querySelector(".btn-toggle");
-var checkbox = document.getElementById('mode');
+var checkbox = document.getElementById("mode");
 //const theme = document.querySelector("#theme-link");
 
 //var hilt = document.createElement('img');
 //hilt.src = 'https://raw.githubusercontent.com/KioniWanKenobi/KioniWanKenobi.github.io/main/assets/img/vailderhilt_horizontal.png';
 //document.body.appendChild(hilt);
-
 //var blade = document.createElement('div');
 //var blade = document.getElementsByClassName('blade');
 
@@ -72,3 +71,7 @@ else   {
    blade.style.boxShadow = "none";
   }
 };
+
+function dark(){
+
+}
