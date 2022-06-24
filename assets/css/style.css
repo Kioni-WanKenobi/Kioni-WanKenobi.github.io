@@ -45,6 +45,7 @@
   0px 24px 38px 3px hsla(0,0%,0%,0.14), 
   0px 9px 46px 8px hsla(0,0%,0%,0.12), 
   0px 11px 15px -7px hsla(0,0%,0%,0.2);
+
 --color-white: #FFFFFF;
 --bg-color: #121212;
 --alt-bg-color: #424242;
@@ -212,7 +213,7 @@ input:checked + * {
 }
 #toggle:checked ~ .control::after {
   font-size: 22px;
-  content: "☀️";
+  content: "🔆";
 }
 
 label {
