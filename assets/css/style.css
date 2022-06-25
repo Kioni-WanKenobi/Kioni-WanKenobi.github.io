@@ -107,7 +107,7 @@ html[data-theme='dark']{
   width: 100%;
   height: fit-content;
   padding: 2rem;
-  align-self: stretch; 
+  justify-self: stretch; 
 
 }
 
