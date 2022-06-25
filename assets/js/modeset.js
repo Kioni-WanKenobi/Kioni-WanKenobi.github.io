@@ -1,6 +1,10 @@
 var checkbox = document.getElementById("mode");
+var theme = dark;
 
-var theme = "dark"
+if (theme)
+document.documentElement.setAttribute('data-theme', theme);
+
+theme = "dark"
 checkbox.addEventListener('change', function() {
     
     if (checkbox.checked) {
