@@ -99,12 +99,13 @@ html[data-theme='dark']{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  
   justify-content: center;
   background: var(--dp-01-bg);
   box-shadow: var(--dp-01-sh);
   line-height: 30px;
   margin: 5%;
-  width:fit-content;
+  width: 100%;
   height: fit-content;
   padding: 2rem;
 
