@@ -96,12 +96,9 @@ html[data-theme='dark']{
 }
 
 
-.body{
+body{
   display: flex;
   flex-direction: wrap;
-}
-
-.body > *{
   background: var(--bg-color);
   color: var(--font-color);
   font-family: var(--ff-body);
