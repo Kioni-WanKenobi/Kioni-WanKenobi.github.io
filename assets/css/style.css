@@ -95,6 +95,19 @@ html[data-theme='dark']{
   --toggle-content: content("🌑");
 }
 
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  background: var(--dp-01-bg);
+  box-shadow: var(--dp-01-sh);
+  line-height: 30px;
+  margin: 0;
+  padding: 2rem;
+
+}
+
 
 body{
   display: flex;
