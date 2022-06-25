@@ -104,7 +104,6 @@ html[data-theme='dark']{
   box-shadow: var(--dp-01-sh);
   line-height: 30px;
   margin: 5%;
-  width: 90vw;
   height: fit-content;
   padding: 2rem;
   justify-self: flex-start; 
@@ -135,8 +134,9 @@ body{
   overflow: hidden;
   box-shadow: var(--dp-01-sh);
   flex: 1 100%; 
+  flex-grow: 1;
   justify-content: space-between;
-  width: 100%;
+
 
 }
 
