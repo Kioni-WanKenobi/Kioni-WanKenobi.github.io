@@ -19,5 +19,5 @@ checkbox.addEventListener('change', function() {
     }
 
     document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('theme',targetTheme);
+    localStorage.setItem('theme',theme);
 });
