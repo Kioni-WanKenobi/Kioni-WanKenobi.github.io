@@ -1,6 +1,6 @@
 var checkbox = document.getElementById("mode");
 var theme = "dark";
-var storedMode = local.Storage.getItem('theme')
+var storedMode = localStorage.getItem('theme')
 
 
 if (storedMode)
