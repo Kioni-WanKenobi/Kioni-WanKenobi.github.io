@@ -6,57 +6,57 @@
 --ff-heading: 'Rubik Glitch', cursive;
 --ff-body: 'Roboto', sans-serif;
 --dp-01-bg: hsla(0, 100%, 100%, 0.05);
---dp-01-sh: box-shadow:  
+--dp-01-sh:  
 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
 0px 2px 1px -1px rgba(0, 0, 0, 0.12); 
 --dp-02-bg: hsla(0, 100%, 100%, 0.07);
---dp-02-sh: box-shadow:
+--dp-02-sh: 
 0px 1px 5px 0px rgba(0, 0, 0, 0.2),
 0px 2px 2px 0px rgba(0, 0, 0, 0.14),
 0px 3px 1px -2px rgba(0, 0, 0, 0.12);
 --dp-03-bg:  hsla(0, 100%, 100%, 0.08);
---dp-03-sh: box-shadow: 
+--dp-03-sh:  
 0px 1px 8px 0px rgba(0, 0, 0, 0.2),
 0px 3px 4px 0px rgba(0, 0, 0, 0.14),
 0px 3px 3px -2px rgba(0, 0, 0, 0.12); 
 --dp-04-bg: hsla(0, 100%, 100%, 0.09);	
---dp-04-sh: box-shadow: 
+--dp-04-sh: 
 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
 0px 4px 5px 0px rgba(0, 0, 0, 0.14),
 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 --dp-05-bg: hsla(0, 100%, 100%, 0.10);	
---dp-05-sh: box-shadow: 
+--dp-05-sh: 
 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
 0px 5px 8px 0px rgba(0, 0, 0, 0.14),
 0px 1px 14px 0px rgba(0, 0, 0, 0.12); 
 --dp-06-bg:  hsla(0, 100%, 100%, 0.11);
---dp-06-sh: box-shadow:
+--dp-06-sh: 
 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
 0px 6px 10px 0px rgba(0, 0, 0, 0.14),
 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
 --dp-08-bg:  hsla(0, 100%, 100%, 0.12);
---dp-08-sh: box-shadow:
+--dp-08-sh: 
 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
 0px 8px 10px 1px rgba(0, 0, 0, 0.14),
 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
 --dp-10-bg:  hsla(0, 100%, 100%, 0.13);
---dp-10-sh: box-shadow:
+--dp-10-sh: 
 0px 6px 6px -3px rgba(0, 0, 0, 0.2),
 0px 10px 14px 1px rgba(0, 0, 0, 0.14),
 0px 4px 18px 3px rgba(0, 0, 0, 0.12);
 --dp-12-bg:hsla(0, 100%, 100%, 0.14);	
---dp-12-sh: box-shadow:
+--dp-12-sh: 
 0px 7px 8px -4px rgba(0, 0, 0, 0.2),
 0px 12px 17px 2px rgba(0, 0, 0, 0.14),
 0px 5px 22px 4px rgba(0, 0, 0, 0.12); 
 --dp-16-bg:  hsla(0, 100%, 100%, 0.15);
---dp-16-sh: box-shadow:
+--dp-16-sh: 
 0px 8px 10px -5px rgba(0, 0, 0, 0.2),
 0px 16px 24px 2px rgba(0, 0, 0, 0.14),
 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
 --dp-24-bg: hsla(0, 100%, 100%, 0.16);;
---dp-24-sh: box-shadow:
+--dp-24-sh: 
 0px 11px 15px -7px rgba(0, 0, 0, 0.2),
 0px 24px 38px 3px rgba(0, 0, 0, 0.14),
 0px 9px 46px 8px rgba(0, 0, 0, 0.12); 
@@ -70,8 +70,8 @@
   --link-color: #008080;
   --link-hover-color: #00FFFF;
   --link-active-color: #FF0000;
-  --box-shadow: boxShadow: 8px 0 8px #B30000,5px 0 5px 8px ivory,5px 0 12px 16px #B30000, 5px 0 12px 10px #660000 ;
-  --alt-box-shadow: boxShadow:  8px 0 8px #B30000,5px 0 5px 7px ivory, 5px 0 14px 16px #B30000, 5px 0 10px 11px #660000 ;
+  --box-shadow: 8px 0 8px #B30000,5px 0 5px 8px ivory,5px 0 12px 16px #B30000, 5px 0 12px 10px #660000 ;
+  --alt-box-shadow: 8px 0 8px #B30000,5px 0 5px 7px ivory, 5px 0 14px 16px #B30000, 5px 0 10px 11px #660000 ;
   --null-box-shadow: boxShadow: null; 
   --toggle-content: 🌑;
   --button-depth: var(--dp-04-sh);
@@ -88,9 +88,9 @@
 --link-color: #007bff;
 --link-hover-color: #0056b3;
 --link-active-color: #005681;
---box-shadow : boxShadow: 8px 0 8px #4C9A2A,5px 0 5px 8px ivory,5px 0 12px 16px #ACDF87, 5px 0 12px 10px #4C9A2A;
---alt-box-Shadow : boxShadow: 8px 0 8px #4C9A2A,5px 0 5px 7px ivory, 5px 0 14px 16px #ACDF87, 5px 0 10px 11px #4C9A2A;
---null-box-shadow: boxShadow: null; 
+--box-shadow : 8px 0 8px #4C9A2A,5px 0 5px 8px ivory,5px 0 12px 16px #ACDF87, 5px 0 12px 10px #4C9A2A;
+--alt-box-Shadow :  8px 0 8px #4C9A2A,5px 0 5px 7px ivory, 5px 0 14px 16px #ACDF87, 5px 0 10px 11px #4C9A2A;
+--null-box-shadow: null; 
 --toggle-content: 🔆;
 --button-depth: var(--dp-08-sh);
 
@@ -106,9 +106,9 @@ html[data-theme='dark']{
   --link-color: #008080;
   --link-hover-color: #00FFFF;
   --link-active-color: #FF0000;
-  --box-shadow: boxShadow: 8px 0 8px #B30000,5px 0 5px 8px ivory,5px 0 12px 16px #B30000, 5px 0 12px 10px #660000 ;
-  --alt-box-shadow: boxShadow:  8px 0 8px #B30000,5px 0 5px 7px ivory, 5px 0 14px 16px #B30000, 5px 0 10px 11px #660000 ;
-  --null-box-shadow: boxShadow: null; 
+  --box-shadow: 8px 0 8px #B30000,5px 0 5px 8px ivory,5px 0 12px 16px #B30000, 5px 0 12px 10px #660000 ;
+  --alt-box-shadow: 8px 0 8px #B30000,5px 0 5px 7px ivory, 5px 0 14px 16px #B30000, 5px 0 10px 11px #660000 ;
+  --null-box-shadow: null; 
   --toggle-content: 🌑;
 }
 
@@ -295,7 +295,7 @@ label {
   height: 58px; 
   cursor: pointer;
   font-size: 28px;
-  content: var(--toggle-content);
+  content: '"'var(--toggle-content)'"';
   box-shadow: var(--button-depth);
 
 }
