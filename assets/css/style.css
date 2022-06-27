@@ -121,7 +121,6 @@ html[data-theme='dark']{
 
 .container{
   display: flex;
-  flex: 1 0 0;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -130,15 +129,15 @@ html[data-theme='dark']{
   /*! line-height: 30px; */
   margin: 1%;
   height: fit-content;
-  padding: 0rem;
   justify-self: flex-start; 
-  width: 70vh;
+
 
 }
 
 .container >*:first-child {
   align-self: stretch;
 }
+
 
 
 body{
@@ -158,10 +157,11 @@ body{
   background-color: #333;
   overflow: hidden;
   box-shadow: var(--dp-01-sh);
-  flex: 1 100%; 
-  flex-grow: 1;
-  width: 100wh;
-  justify-content: space-between;
+  background-color: #333454;
+  overflow: hidden;
+  box-shadow: var(--dp-01-sh);
+  height: 100%;
+  width: 100%
 
 
 }
@@ -175,6 +175,8 @@ body{
   padding: 6px 8px;
   text-decoration: none;
   font-size: 17px;
+  
+  
 }
 
 /* Change the color of links on hover */
@@ -196,8 +198,9 @@ body{
   display: flex;
   color: #f2f2f2;
   text-align: center;
-  padding: 6px 8px;
+  padding: 0px 0px 0px 12px;
   text-decoration: none;
+  margin: 1rem;
 }
 
 
@@ -211,8 +214,7 @@ body{
   background-color: var(--dp-02-bg);
   box-shadow: var(--dp-02-sh);
   row-gap: 10px;
-  margin: 2%;
-  padding: 2em;
+  margin: 2em;
   flex-wrap: wrap;
   flex-grow: 1;
   flex-direction: column;
@@ -222,13 +224,13 @@ body{
 }
 
 #profile-image{
-  align-self: stretch;
   background: red;
 }
 
 #lightsaber{
  align-self: stretch;
  background: red;
+  margin: 2em;
   
 }
 
@@ -321,15 +323,15 @@ label:before {
   
 }
 
-.nav {
-  background-color: #333;
+.footer {
+  background-color: #333454;
   overflow: hidden;
   box-shadow: var(--dp-01-sh);
   flex: 1 100%; 
   flex-grow: 1;
   width: 100wh;
   justify-content: space-between;
-
+  width: 100%
 
 }
 
