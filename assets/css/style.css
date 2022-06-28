@@ -150,7 +150,6 @@ body{
   font-family: var(--ff-body);
   font-size: 14px;
   padding: 0rem;
-
 }
 
 .nav {
@@ -162,8 +161,6 @@ body{
   box-shadow: var(--dp-01-sh);
   height: 100%;
   width: 100%
-
-
 }
 
 /* Style the links inside the navigation bar */
@@ -219,91 +216,51 @@ body{
   flex-grow: 1;
   flex-direction: column;
   width: 80vw;
+  padding: 2em;
+  margin-bottom: -2em;
   
   
 }
 
 #profile-image{
-  background: red;
+  justify-self: flex-end;
 }
 
 #lightsaber{
- align-self: stretch;
- background: red;
+  align-self: stretch;
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
   margin: 2em;
   
 }
 
 #blade {
 
-  top :  50% ;
-  left :  50% ;
-  float : left; 
-  margin-top :  338px ;
-  margin-left :  -60px ;
   width :  0px ;
   height :  1px ;
-  border-radius :  100px ;
-  z-index :  -1 ;
+  margin-left: -1em;
+  border-radius: 1px;
   transition :  width .6s cubic-bezier(0.34, .75 , 0.20, 1) ;
   background :  ivory ;
   box-shadow: none;
-  align-items: flex-start;
-  display: flex;
+  z-index: 0;
+
 }
 
 #hilt {
-  float: left;
-  top :  50% ;
-  left :  50% ;
-  margin-top :  300px ;
-  margin-left :  -300px ;
+  height: 78px;
+  width: 279px;
+  z-index: 1;
+
   cursor: pointer;
-  align-items: flex-start;
-  display: flex;
 }
 
 
 .hidden{
   display:none;
 }
-
-/*
-.class {
- font-size: 28px;
- content: 'hi';
-  color: white;
-}*/
-
-/*
-input[type=checkbox]{
-  display: none;
-}/*
-
-/*
-input + label{
-    font-size: 1.2rem;
-    width: 2rem;
-    height: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: .1rem solid var(--blue);
-    border-radius: 50%;
-    background: var(--darkblue);
-    transition: .1s all;
-    cursor: pointer;
-    z-index: 999 !important;
-}
-
-input + label:hover {
-  transform: scale(.95);
-}
-
-input + label:after {
-  content: "🤜";
-}*/
-
 
 label:before {
   float: right;
@@ -313,14 +270,14 @@ label:before {
   justify-self: center;
   background-color: var(--dp-10-bg);
   cursor: pointer;
-  padding: 15px;
+  padding: 12.5px;
   font-size: 2.5em;
   content: var(--toggle-content);
   box-shadow: var(--dp-10-sh);
   color: white;
   border-radius: 90%;
   z-index: 1;
-  
+  margin: 1rem;
 }
 
 .footer {
@@ -331,8 +288,12 @@ label:before {
   flex-grow: 1;
   width: 100wh;
   justify-content: space-between;
-  width: 100%
+  width: 100%;
+  
+}
 
+.footer button{
+  margin: 1em;  
 }
 
 

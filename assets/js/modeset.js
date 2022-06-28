@@ -6,16 +6,15 @@ var storedMode = localStorage.getItem('theme')
 if (storedMode)
 document.documentElement.setAttribute('data-theme', storedMode);
 
-theme = "dark"
 checkbox.addEventListener('change', function() {
     
     if (checkbox.checked) {
-    theme = "light";
+    theme = "dark";
   
     } 
 
     else {
-        theme = "dark";
+        theme = "light";
     }
 
     document.documentElement.setAttribute('data-theme', theme);
